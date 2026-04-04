@@ -1,0 +1,28 @@
+# Dependencias
+node_modules/
+__pycache__/
+*.pyc
+.pyo
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Claude memory (pessoal)
+.claude/
