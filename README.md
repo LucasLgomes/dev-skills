@@ -1,463 +1,523 @@
 <div align="center">
 
-<!-- HEADER -->
 <br>
 
-```
+```text
 ██████╗ ███████╗██╗   ██╗    ███████╗██╗  ██╗██╗██╗     ██╗     ███████╗
 ██╔══██╗██╔════╝██║   ██║    ██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝
 ██║  ██║█████╗  ██║   ██║    ███████╗█████╔╝ ██║██║     ██║     ███████╗
-██║  ██║██╔══╝  ╚██╗ ██╔╝    ╚════██║██╔═██╗ ██║██║     ██║     ╚════██║
-██████╔╝███████╗ ╚████╔╝     ███████║██║  ██╗██║███████╗███████╗███████║
-╚═════╝ ╚══════╝  ╚═══╝      ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
+██║  ██║██╔══╝  ╚██╗ ██╔╝     ╚════██║██╔═██╗ ██║██║     ██║     ╚════██║
+██████╔╝███████╗ ╚████╔╝      ███████║██║  ██╗██║███████╗███████╗███████║
+╚═════╝ ╚══════╝  ╚═══╝       ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 ```
+
+# dev-skills
 
 **Base de Conhecimento Operacional para Agentes de IA**
 
-<sub>20 agentes especialistas | 36+ skills modulares | 11 workflows | 13 templates | 7 skills n8n</sub>
+<sub>Um repositório pensado para transformar agentes em especialistas reais por domínio, com leitura orientada, roteamento por contexto e execução com consistência.</sub>
 
 <br>
 
-![Agentes](https://img.shields.io/badge/agentes-20-00d4ff?style=for-the-badge&labelColor=0a0a0a)
-![Skills](https://img.shields.io/badge/skills-36+-00ffa3?style=for-the-badge&labelColor=0a0a0a)
-![Workflows](https://img.shields.io/badge/workflows-11-ff6b35?style=for-the-badge&labelColor=0a0a0a)
-![Templates](https://img.shields.io/badge/templates-13-c084fc?style=for-the-badge&labelColor=0a0a0a)
-![Cobertura](https://img.shields.io/badge/cobertura-~90%25_web%2Fmobile-00d4ff?style=for-the-badge&labelColor=0a0a0a)
+![Agentes](https://img.shields.io/badge/agentes-20-00d4ff?style=for-the-badge&labelColor=0b0b0f)
+![Skills](https://img.shields.io/badge/skills-36+-00ffa3?style=for-the-badge&labelColor=0b0b0f)
+![Workflows](https://img.shields.io/badge/workflows-11-ff7a59?style=for-the-badge&labelColor=0b0b0f)
+![Templates](https://img.shields.io/badge/templates-13-c084fc?style=for-the-badge&labelColor=0b0b0f)
+![n8n](https://img.shields.io/badge/n8n_skills-7-ffcc00?style=for-the-badge&labelColor=0b0b0f)
 
----
+<br>
+
+![Python](https://img.shields.io/badge/python-base-1f6feb?style=flat-square&labelColor=0b0b0f)
+![Arquitetura](https://img.shields.io/badge/arquitetura-modular-00d4ff?style=flat-square&labelColor=0b0b0f)
+![Documentação](https://img.shields.io/badge/documenta%C3%A7%C3%A3o-orientada_a_uso-00ffa3?style=flat-square&labelColor=0b0b0f)
+![Git](https://img.shields.io/badge/git-pronto_para_versionamento-c084fc?style=flat-square&labelColor=0b0b0f)
 
 </div>
 
-## O que e este projeto
+---
 
-O **dev-skills** e uma base de conhecimento modular que transforma agentes de IA em especialistas de desenvolvimento. Em vez de depender de respostas genericas, o agente consulta arquivos especificos por dominio e executa com precisao, contexto e consistencia.
+## Visão geral
 
-O sistema opera como um **kit de expansao cognitiva**: agentes especialistas carregam skills sob demanda, seguem workflows estruturados e respeitam regras globais de qualidade.
+O **dev-skills** é uma base de conhecimento modular criada para agentes de IA que precisam trabalhar com mais precisão, contexto e especialização.
 
-<br>
+Em vez de depender de respostas genéricas, o agente passa a:
+
+- identificar o domínio do problema;
+- consultar os arquivos corretos do repositório;
+- carregar agentes e skills especializadas;
+- seguir workflows estruturados;
+- executar respeitando regras globais de qualidade.
+
+Na prática, este projeto funciona como uma **camada operacional de inteligência**, onde o agente aprende por **releitura contextual** e não por improviso.
+
+---
+
+## O que este projeto resolve
+
+Muitos agentes erram porque tentam responder apenas com memória, sem consultar a fonte correta. Este repositório corrige isso com uma arquitetura onde:
+
+- cada assunto possui arquivos especializados;
+- cada agente tem um papel técnico claro;
+- cada skill tem escopo definido;
+- cada workflow organiza a execução;
+- as regras globais mantêm consistência entre tarefas e projetos.
+
+O resultado é um ecossistema em que o agente consegue atuar com muito mais coerência em temas como frontend, backend, arquitetura, mobile, banco de dados, testes, segurança, performance, documentação e n8n.
+
+---
 
 ## Para quem serve
 
-| Perfil | Como usar |
-|--------|-----------|
-| **Desenvolvedor solo** | Clone e aponte seu agente para os arquivos do dominio. Receba orientacao especializada em frontend, backend, mobile, banco, seguranca, testes e mais. |
-| **Time de engenharia** | Use como base padronizada de conhecimento para manter consistencia entre agentes e projetos. |
-| **Quem usa n8n** | Acesse o pacote `n8n-skills/` com 7 skills especializadas para construir workflows profissionais. |
-| **Quem quer aprender** | Leia os agents e skills como material de referencia tecnica por dominio. |
-
-<br>
+| Perfil | Como este repositório ajuda |
+|---|---|
+| **Desenvolvedor solo** | Permite usar agentes com muito mais profundidade técnica, consultando as fontes certas para cada tarefa. |
+| **Times de engenharia** | Ajuda a padronizar a forma como agentes e automações tomam decisões dentro de múltiplos projetos. |
+| **Quem usa n8n** | Entrega um pacote dedicado com skills, documentação e padrões específicos para workflows n8n. |
+| **Quem está estudando** | Funciona como um acervo técnico organizado por domínio, com trilhas claras de leitura. |
+| **Quem quer criar seus próprios agents** | Serve como referência prática para estruturar agentes, skills, workflows e regras globais. |
 
 ---
 
-## Arquitetura de Conhecimento
+## Princípio central
 
-```
+> **O agente nunca deve depender apenas da memória.**  
+> Ele deve reler os arquivos corretos sempre que o domínio do problema mudar.
+
+Esse é o coração do projeto.
+
+---
+
+## Arquitetura de conhecimento
+
+```text
 dev-skills/
-├── .agent/                          # Nucleo principal do sistema
-│   ├── ARCHITECTURE.md              # Mapa completo de agentes, skills e workflows
-│   ├── rules/GEMINI.md              # Regras globais de comportamento
-│   ├── agents/                      # 20 agentes especialistas
-│   ├── skills/                      # 36+ skills modulares por dominio
-│   ├── workflows/                   # 11 comandos slash (/create, /plan, /debug...)
-│   ├── scripts/                     # Scripts mestres de validacao
-│   └── .shared/ui-ux-pro-max/      # Base visual: 50 estilos, 21 paletas, 50 fontes
+├── .agent/                                # Núcleo principal do sistema
+│   ├── ARCHITECTURE.md                    # Mapa técnico do ecossistema
+│   ├── rules/GEMINI.md                    # Regras globais de comportamento
+│   ├── agents/                            # Agentes especialistas
+│   ├── skills/                            # Skills modulares por domínio
+│   ├── workflows/                         # Fluxos operacionais por comando
+│   ├── scripts/                           # Scripts de verificação e apoio
+│   └── .shared/ui-ux-pro-max/             # Base visual compartilhada
 │
-├── agents/                          # Copias operacionais dos agentes
-│   ├── fullstack/                   # Fullstack (frontend-design, app-builder)
-│   └── Mobile/                      # Mobile (mobile-design)
+├── agents/                                # Cópias operacionais e agrupamentos
+│   ├── fullstack/
+│   └── Mobile/
 │
-├── n8n-skills/                      # Pacote especializado para n8n
-│   ├── skills/                      # 7 skills n8n
-│   ├── docs/                        # Documentacao n8n
-│   └── evaluations/                 # Cenarios de teste
-│
-├── docs/                            # Documentacao do projeto
-│   ├── regras-totais.md             # Todas as regras consolidadas
+├── docs/                                  # Documentação central do projeto
+│   ├── regras-totais.md
 │   ├── guia-de-aprendizado-do-agent.md
-│   └── mapa-de-roteamento.md        # Indice operacional por assunto
+│   └── mapa-de-roteamento.md
 │
-├── agente_mestre_regras_aprendizado.md  # Documento mestre do agente
-└── README.md                        # Este arquivo
+├── n8n-skills/                            # Pacote especializado para n8n
+│   ├── docs/
+│   ├── evaluations/
+│   ├── skills/
+│   └── dist/
+│
+├── agente_mestre_regras_aprendizado.md    # Documento mestre para o agent
+└── README.md                              # Porta de entrada do projeto
 ```
 
-<br>
+---
+
+## Como o ecossistema funciona
+
+O repositório é organizado em quatro pilares:
+
+### 1. Agentes
+São personas técnicas especializadas, cada uma focada em um domínio específico.
+
+### 2. Skills
+São módulos de conhecimento acionados sob demanda para resolver tarefas com profundidade.
+
+### 3. Workflows
+São procedimentos operacionais que organizam como o agente deve executar determinadas ações.
+
+### 4. Regras globais
+São os critérios de comportamento, linguagem, consistência e prioridade de leitura.
 
 ---
 
-## Os 20 Agentes Especialistas
+## Os agentes especialistas
 
-Cada agente e uma persona tecnica focada em um dominio. O agente carrega suas skills automaticamente via frontmatter.
+Cada agente atua como um especialista técnico de referência.
 
-| Agente | Dominio | Skills carregadas |
-|--------|---------|-------------------|
-| `orchestrator` | Coordenacao multi-agente | parallel-agents, behavioral-modes, architecture |
-| `project-planner` | Planejamento e descoberta | brainstorming, plan-writing, architecture |
-| `frontend-specialist` | Interface web e UI/UX | frontend-design, tailwind-patterns |
-| `backend-specialist` | API e logica de servidor | api-patterns, nodejs-best-practices, database-design |
-| `database-architect` | Modelagem e SQL | database-design |
-| `mobile-developer` | iOS, Android, React Native | mobile-design |
-| `game-developer` | Logica de jogo e mecanica | game-development |
-| `devops-engineer` | CI/CD e infraestrutura | deployment-procedures |
-| `security-auditor` | Seguranca e conformidade | vulnerability-scanner, red-team-tactics |
-| `penetration-tester` | Seguranca ofensiva | red-team-tactics |
-| `test-engineer` | Estrategia de testes | testing-patterns, tdd-workflow, webapp-testing |
-| `qa-automation-engineer` | Testes E2E e pipelines | webapp-testing, testing-patterns |
-| `debugger` | Analise de causa raiz | systematic-debugging |
-| `performance-optimizer` | Velocidade e Web Vitals | performance-profiling |
-| `seo-specialist` | Ranking e visibilidade | seo-fundamentals, geo-fundamentals |
-| `documentation-writer` | Manuais e documentacao | documentation-templates |
-| `product-manager` | Requisitos e historias | plan-writing, brainstorming |
-| `product-owner` | Estrategia e backlog | plan-writing, brainstorming |
-| `code-archaeologist` | Codigo legado e refatoracao | clean-code, code-review-checklist |
-| `explorer-agent` | Analise de codebase | - |
-
-<br>
+| Agente | Domínio principal | Função prática |
+|---|---|---|
+| `orchestrator` | Coordenação multiagente | Organiza tarefas complexas e distribui responsabilidades |
+| `project-planner` | Planejamento | Estrutura etapas, escopo e execução |
+| `frontend-specialist` | Frontend e UI/UX | Resolve interface, experiência, design e implementação visual |
+| `backend-specialist` | Backend e APIs | Atua em lógica de servidor, contratos, autenticação e integração |
+| `database-architect` | Banco de dados | Modelagem, schema, índices, migrações e performance |
+| `mobile-developer` | Mobile | Android, iOS, navegação, UI mobile e arquitetura |
+| `game-developer` | Games | Estruturação e lógica de desenvolvimento de jogos |
+| `devops-engineer` | DevOps e infraestrutura | Deploy, automação, servidores e pipelines |
+| `security-auditor` | Segurança defensiva | Auditoria, hardening, boas práticas e verificação |
+| `penetration-tester` | Segurança ofensiva | Simulação de ataque e análise ofensiva |
+| `test-engineer` | Testes | Estratégia, cobertura, qualidade e validação |
+| `qa-automation-engineer` | QA e automação | Testes automatizados e fluxos E2E |
+| `debugger` | Depuração | Investigação de causa raiz |
+| `performance-optimizer` | Performance | Web Vitals, renderização e otimização |
+| `seo-specialist` | SEO | Visibilidade, estrutura e sinais técnicos |
+| `documentation-writer` | Documentação | Escrita técnica e padronização documental |
+| `product-manager` | Produto | Requisitos, valor, alinhamento e priorização |
+| `product-owner` | Backlog e estratégia | Direção de produto e evolução |
+| `code-archaeologist` | Código legado | Leitura, entendimento e refatoração de bases existentes |
+| `explorer-agent` | Exploração de codebase | Mapeamento e leitura inicial do repositório |
 
 ---
 
-## Skills por Dominio
+## Skills por domínio
 
 ### Frontend e UI
-
-| Skill | Descricao |
-|-------|-----------|
-| `frontend-design` | Padroes UI/UX, design system, animacao, tipografia, psicologia UX, efeitos visuais |
-| `nextjs-react-expert` | 9 modulos de performance React/Next.js (waterfalls, bundle, SSR, cache, re-render) |
-| `tailwind-patterns` | Utilitarios Tailwind CSS v4 |
-| `web-design-guidelines` | Auditoria web: 100+ regras de acessibilidade, UX e performance |
-| `ui-ux-pro-max` | Base visual compartilhada: 50 estilos, 21 paletas, 50 fontes, 12 stacks |
+- `frontend-design`
+- `nextjs-react-expert`
+- `tailwind-patterns`
+- `web-design-guidelines`
+- `ui-ux-pro-max`
 
 ### Backend e API
+- `api-patterns`
+- `nodejs-best-practices`
+- `python-patterns`
 
-| Skill | Descricao |
-|-------|-----------|
-| `api-patterns` | REST, GraphQL, tRPC, autenticacao, rate limiting, versionamento |
-| `nodejs-best-practices` | Node.js async, modulos, padroes |
-| `python-patterns` | Python, FastAPI, padroes |
-
-### Banco de Dados
-
-| Skill | Descricao |
-|-------|-----------|
-| `database-design` | Schema, indexacao, migracoes, otimizacao, selecao de ORM |
+### Banco de dados
+- `database-design`
 
 ### Mobile
+- `mobile-design`
 
-| Skill | Descricao |
-|-------|-----------|
-| `mobile-design` | UI/UX mobile, navegacao, performance, testes, plataforma Android/iOS, psicologia touch |
+### Arquitetura e planejamento
+- `architecture`
+- `app-builder`
+- `plan-writing`
+- `brainstorming`
 
-### Arquitetura e Planejamento
+### Testes e qualidade
+- `testing-patterns`
+- `webapp-testing`
+- `tdd-workflow`
+- `code-review-checklist`
+- `lint-and-validate`
 
-| Skill | Descricao |
-|-------|-----------|
-| `architecture` | Padroes de sistema, trade-offs, selecao de padroes |
-| `app-builder` | Scaffolding fullstack com 13 templates prontos |
-| `plan-writing` | Planejamento e decomposicao de tarefas |
-| `brainstorming` | Descoberta socratica |
+### Segurança
+- `vulnerability-scanner`
+- `red-team-tactics`
 
-### Testes e Qualidade
+### DevOps e infraestrutura
+- `deployment-procedures`
+- `server-management`
+- `bash-linux`
+- `powershell-windows`
 
-| Skill | Descricao |
-|-------|-----------|
-| `testing-patterns` | Jest, Vitest, estrategias de teste |
-| `webapp-testing` | E2E com Playwright |
-| `tdd-workflow` | Desenvolvimento orientado a testes |
-| `code-review-checklist` | Padroes de revisao de codigo |
-| `lint-and-validate` | Linting e validacao |
-
-### Seguranca
-
-| Skill | Descricao |
-|-------|-----------|
-| `vulnerability-scanner` | Auditoria OWASP, checklists |
-| `red-team-tactics` | Seguranca ofensiva |
-
-### DevOps e Infraestrutura
-
-| Skill | Descricao |
-|-------|-----------|
-| `deployment-procedures` | CI/CD e deploy |
-| `server-management` | Gestao de infraestrutura |
-| `bash-linux` | Comandos Linux e scripting |
-| `powershell-windows` | PowerShell Windows |
-
-### Outros
-
-| Skill | Descricao |
-|-------|-----------|
-| `clean-code` | Padroes de codigo limpo (global) |
-| `game-development` | Logica de jogo, 2D, 3D, multiplayer, VR/AR |
-| `seo-fundamentals` | SEO, E-E-A-T, Core Web Vitals |
-| `i18n-localization` | Internacionalizacao |
-| `mcp-builder` | Model Context Protocol |
-| `performance-profiling` | Web Vitals e otimizacao |
-| `systematic-debugging` | Depuracao sistematica |
-
-<br>
+### Outros domínios
+- `clean-code`
+- `game-development`
+- `seo-fundamentals`
+- `i18n-localization`
+- `mcp-builder`
+- `performance-profiling`
+- `systematic-debugging`
 
 ---
 
-## 11 Workflows (Comandos Slash)
+## Workflows disponíveis
 
-Workflows sao procedimentos invocados por comando. Definem o fluxo operacional do agente.
+Os workflows funcionam como rotas operacionais para o agent.
 
-| Comando | Funcao |
-|---------|--------|
-| `/brainstorm` | Descoberta socratica |
-| `/create` | Criar nova aplicacao |
-| `/debug` | Depurar problemas |
-| `/deploy` | Deploy da aplicacao |
-| `/enhance` | Melhorar codigo existente |
-| `/orchestrate` | Coordenacao multi-agente |
-| `/plan` | Planejamento de tarefas |
-| `/preview` | Pre-visualizar mudancas |
-| `/status` | Status do projeto |
-| `/test` | Executar testes |
-| `/ui-ux-pro-max` | Design com 50 estilos |
-
-<br>
+| Comando | Objetivo |
+|---|---|
+| `/brainstorm` | Explorar ideias e descobrir caminhos |
+| `/create` | Criar uma aplicação ou estrutura nova |
+| `/debug` | Investigar e resolver problemas |
+| `/deploy` | Organizar publicação e entrega |
+| `/enhance` | Melhorar algo já existente |
+| `/orchestrate` | Coordenar múltiplos agentes |
+| `/plan` | Planejar a execução |
+| `/preview` | Revisar e antecipar mudanças |
+| `/status` | Entender situação atual |
+| `/test` | Executar validação e testes |
+| `/ui-ux-pro-max` | Acionar raciocínio visual premium |
 
 ---
 
-## 13 Templates de Projeto
+## Templates de projeto
 
-O `app-builder` inclui templates prontos para scaffolding rapido:
+O conjunto `app-builder` inclui templates prontos para acelerar scaffolding e padronização.
 
-| Template | Stack |
-|----------|-------|
-| `nextjs-fullstack` | Next.js com API routes |
-| `nextjs-saas` | Next.js SaaS |
-| `nextjs-static` | Next.js estatico |
-| `express-api` | Express.js API |
-| `python-fastapi` | Python FastAPI |
-| `react-native-app` | React Native |
-| `flutter-app` | Flutter |
-| `nuxt-app` | Nuxt.js |
-| `astro-static` | Astro estatico |
-| `electron-desktop` | Electron desktop |
-| `chrome-extension` | Extensao Chrome |
-| `cli-tool` | Ferramenta CLI |
-| `monorepo-turborepo` | Monorepo Turborepo |
-
-<br>
+| Template | Finalidade |
+|---|---|
+| `nextjs-fullstack` | Aplicações fullstack com Next.js |
+| `nextjs-saas` | SaaS com base em Next.js |
+| `nextjs-static` | Sites estáticos em Next.js |
+| `express-api` | APIs em Express |
+| `python-fastapi` | APIs e serviços em FastAPI |
+| `react-native-app` | Aplicativos React Native |
+| `flutter-app` | Aplicativos Flutter |
+| `nuxt-app` | Aplicações Nuxt |
+| `astro-static` | Sites estáticos com Astro |
+| `electron-desktop` | Aplicativos desktop |
+| `chrome-extension` | Extensões para navegador |
+| `cli-tool` | Ferramentas de linha de comando |
+| `monorepo-turborepo` | Estruturas monorepo com Turborepo |
 
 ---
 
-## Pacote n8n-skills
+## Pacote especializado para n8n
 
-Pacote especializado com 7 skills para construir workflows n8n profissionais usando o servidor MCP n8n-mcp.
+A pasta `n8n-skills/` expande o projeto com um pacote dedicado ao ecossistema n8n.
 
-| Skill | Foco |
-|-------|------|
-| `n8n-expression-syntax` | Sintaxe de expressoes n8n |
-| `n8n-mcp-tools-expert` | Uso eficiente das ferramentas MCP |
-| `n8n-workflow-patterns` | Padroes arquiteturais de workflow |
-| `n8n-validation-expert` | Interpretacao de erros de validacao |
-| `n8n-node-configuration` | Configuracao de nodes |
-| `n8n-code-javascript` | JavaScript em Code nodes |
-| `n8n-code-python` | Python em Code nodes |
+### O que existe lá
+- documentação de instalação e uso;
+- skills específicas para expression syntax, code nodes, validação, MCP tools e patterns;
+- cenários de avaliação;
+- builds distribuíveis.
 
-Documentacao completa em `n8n-skills/docs/`.
-
-<br>
+### Skills n8n disponíveis
+- `n8n-expression-syntax`
+- `n8n-mcp-tools-expert`
+- `n8n-workflow-patterns`
+- `n8n-validation-expert`
+- `n8n-node-configuration`
+- `n8n-code-javascript`
+- `n8n-code-python`
 
 ---
 
-## Roteamento por Assunto
+## Roteamento rápido por assunto
 
-A tabela abaixo mostra exatamente onde o agente deve buscar conhecimento para cada tipo de tarefa. Para o mapa completo com todos os caminhos, consulte [`docs/mapa-de-roteamento.md`](docs/mapa-de-roteamento.md).
+Esta é a visão rápida. Para o mapa completo, consulte [`docs/mapa-de-roteamento.md`](docs/mapa-de-roteamento.md).
 
 | Assunto | Agente principal | Primeiro arquivo a ler |
-|---------|------------------|------------------------|
+|---|---|---|
 | Frontend / UI | `frontend-specialist` | `.agent/skills/frontend-design/SKILL.md` |
 | Backend / API | `backend-specialist` | `.agent/skills/api-patterns/SKILL.md` |
 | Banco de dados | `database-architect` | `.agent/skills/database-design/SKILL.md` |
 | Mobile | `mobile-developer` | `.agent/skills/mobile-design/SKILL.md` |
 | Arquitetura | `orchestrator` | `.agent/skills/architecture/SKILL.md` |
 | Testes | `test-engineer` | `.agent/skills/testing-patterns/SKILL.md` |
-| Seguranca | `security-auditor` | `.agent/skills/vulnerability-scanner/SKILL.md` |
+| Segurança | `security-auditor` | `.agent/skills/vulnerability-scanner/SKILL.md` |
 | Performance | `performance-optimizer` | `.agent/skills/performance-profiling/SKILL.md` |
 | DevOps / Deploy | `devops-engineer` | `.agent/skills/deployment-procedures/SKILL.md` |
 | Debugging | `debugger` | `.agent/skills/systematic-debugging/SKILL.md` |
-| Documentacao | `documentation-writer` | `.agent/skills/documentation-templates/SKILL.md` |
+| Documentação | `documentation-writer` | `.agent/skills/documentation-templates/SKILL.md` |
 | Planejamento | `project-planner` | `.agent/skills/plan-writing/SKILL.md` |
-| n8n | - | `n8n-skills/skills/.../SKILL.md` |
+| n8n | `n8n-skills` | `n8n-skills/skills/.../SKILL.md` |
 | Jogo | `game-developer` | `.agent/skills/game-development/SKILL.md` |
-| UI/UX Premium | `frontend-specialist` | `.agent/.shared/ui-ux-pro-max/data/` |
-| App novo | `orchestrator` | `.agent/skills/app-builder/SKILL.md` |
-
-<br>
+| UI/UX premium | `frontend-specialist` | `.agent/.shared/ui-ux-pro-max/data/` |
+| Novo app | `orchestrator` | `.agent/skills/app-builder/SKILL.md` |
 
 ---
 
-## Como Comecar
+## Fluxo recomendado de uso
 
-### 1. Clone o repositorio
+### 1. Clone o repositório
 
 ```bash
 git clone https://github.com/LucasLgomes/dev-skills.git
 cd dev-skills
 ```
 
-### 2. Aponte o agente para o documento mestre
+### 2. Direcione o agent para o documento mestre
 
-Ao iniciar uma sessao com qualquer agente de IA, peca para ele ler o arquivo principal:
+Peça explicitamente para o agent começar por este arquivo:
 
+```text
+Leia o arquivo agente_mestre_regras_aprendizado.md e siga todas as regras do projeto.
 ```
-Leia o arquivo agente_mestre_regras_aprendizado.md e siga todas as regras.
-```
 
-Esse arquivo contem:
-- todas as regras globais de idioma, nomenclatura e qualidade;
-- a ordem obrigatoria de leitura antes de qualquer tarefa;
-- o roteamento completo por assunto com caminhos exatos;
-- o algoritmo operacional que o agente deve seguir;
-- politicas de releitura e validacao.
+### 3. Faça uma solicitação orientada por contexto
 
-### 3. Peça uma tarefa especifica
+Exemplo:
 
-```
-Preciso criar uma API REST com autenticacao JWT. 
+```text
+Preciso criar uma API REST com autenticação JWT.
 Consulte os arquivos corretos e siga as regras do projeto.
 ```
 
-O agente vai:
-1. Classificar a tarefa (backend + seguranca);
-2. Consultar `GEMINI.md` para regras globais;
-3. Ler `backend-specialist.md` e `security-auditor.md`;
-4. Carregar `api-patterns/SKILL.md` e `api-patterns/auth.md`;
-5. Executar seguindo todas as regras de qualidade.
+### 4. O comportamento esperado do agent será
 
-<br>
+1. classificar o domínio da tarefa;
+2. consultar as regras globais;
+3. ler o agente especialista correto;
+4. abrir a skill adequada;
+5. executar respeitando a hierarquia de decisão do repositório.
 
 ---
 
-## Scripts de Validacao
+## Exemplo prático de raciocínio
 
-O projeto inclui scripts mestres para verificacao automatizada:
+### Solicitação
+```text
+Preciso melhorar a performance de uma tela Next.js com carregamento lento.
+```
 
-| Script | Uso | Quando executar |
-|--------|-----|-----------------|
-| `checklist.py` | Validacao por prioridade (seguranca, lint, schema, testes, UX, SEO) | Durante desenvolvimento |
-| `verify_all.py` | Verificacao completa (tudo acima + Lighthouse, E2E, bundle, mobile) | Antes de deploy |
+### Caminho esperado
+1. identificar domínio: frontend + performance;
+2. ler `.agent/agents/frontend-specialist.md`;
+3. ler `.agent/agents/performance-optimizer.md`;
+4. abrir `.agent/skills/nextjs-react-expert/SKILL.md`;
+5. consultar módulos de waterfalls, bundle, server-side performance e re-render;
+6. executar com base nas regras globais de `.agent/rules/GEMINI.md`.
+
+---
+
+## Protocolo de carregamento de skills
+
+```text
+Solicitação do usuário
+       │
+       ▼
+Identificar domínio
+       │
+       ▼
+Selecionar agente especialista
+       │
+       ▼
+Ler frontmatter e skills relacionadas
+       │
+       ▼
+Abrir SKILL.md da skill principal
+       │
+       ▼
+Ler somente os módulos relevantes
+       │
+       ▼
+Aplicar regras globais
+       │
+       ▼
+Executar
+```
+
+### Prioridade de decisão
+1. **P0** → `.agent/rules/GEMINI.md`
+2. **P1** → `.agent/agents/*.md`
+3. **P2** → `.agent/skills/**/SKILL.md`
+4. **P3** → arquivos auxiliares da skill
+5. **P4** → opinião ou extrapolação do modelo
+
+---
+
+## Scripts de validação
+
+O projeto já inclui scripts para checagem automatizada.
+
+| Script | Função | Uso recomendado |
+|---|---|---|
+| `.agent/scripts/checklist.py` | Validação por prioridade | Durante desenvolvimento |
+| `.agent/scripts/verify_all.py` | Verificação mais completa | Antes de entrega ou deploy |
+
+### Exemplos
 
 ```bash
-# Validacao rapida
 python .agent/scripts/checklist.py .
+```
 
-# Verificacao completa
+```bash
 python .agent/scripts/verify_all.py . --url http://localhost:3000
 ```
 
-<br>
+---
+
+## Documentos principais do projeto
+
+| Arquivo | Finalidade |
+|---|---|
+| `README.md` | Porta de entrada do projeto |
+| `agente_mestre_regras_aprendizado.md` | Documento mestre para orientar o agent |
+| `docs/regras-totais.md` | Consolidação das regras operacionais |
+| `docs/guia-de-aprendizado-do-agent.md` | Explica como o agent aprende com o repositório |
+| `docs/mapa-de-roteamento.md` | Índice operacional por assunto |
+| `.agent/ARCHITECTURE.md` | Mapa técnico do sistema |
+| `.agent/rules/GEMINI.md` | Regras globais de comportamento |
 
 ---
 
-## Protocolo de Carregamento de Skills
+## Regras fundamentais
 
-```
-Requisicao do usuario
-       |
-       v
-Identificar dominio → Selecionar agente → Ler frontmatter "skills:"
-       |
-       v
-Carregar SKILL.md (indice) → Ler somente secoes relevantes
-       |
-       v
-Aplicar regras → Executar
-```
-
-Prioridade de regras:
-1. **P0** — `GEMINI.md` (regras globais)
-2. **P1** — Arquivo do agente (`.agent/agents/*.md`)
-3. **P2** — `SKILL.md` (skill especifica)
-
-<br>
+- **Idioma padrão:** português do Brasil
+- **Fuso horário padrão:** `America/Sao_Paulo`
+- **Nomenclatura:** nomes claros, completos e sem abreviações confusas
+- **Fonte da verdade:** os arquivos do repositório sempre vencem suposições
+- **Releitura obrigatória:** o agent deve reler os arquivos corretos antes de agir
+- **Sem improviso:** se existe fonte especializada, ela deve ser priorizada
+- **Clareza acima de enfeite:** documentação deve ser útil antes de ser bonita
+- **Especialização por contexto:** o agent precisa mudar de trilha conforme o domínio da tarefa
 
 ---
 
-## Documentacao Complementar
+## Como contribuir
 
-| Documento | Conteudo |
-|-----------|----------|
-| [`agente_mestre_regras_aprendizado.md`](agente_mestre_regras_aprendizado.md) | Documento mestre com todas as regras, roteamento completo e algoritmo operacional |
-| [`docs/regras-totais.md`](docs/regras-totais.md) | Consolidacao de todas as regras operacionais |
-| [`docs/guia-de-aprendizado-do-agent.md`](docs/guia-de-aprendizado-do-agent.md) | Como o agente aprende com o repositorio |
-| [`docs/mapa-de-roteamento.md`](docs/mapa-de-roteamento.md) | Indice operacional: qual arquivo ler para cada assunto |
-| [`.agent/ARCHITECTURE.md`](.agent/ARCHITECTURE.md) | Mapa tecnico completo de agentes, skills e workflows |
-| [`.agent/rules/GEMINI.md`](.agent/rules/GEMINI.md) | Regras globais de comportamento do agente |
+### Adicionar um novo agent
+1. criar o arquivo em `.agent/agents/`;
+2. definir `name`, `description` e `skills`;
+3. atualizar a arquitetura, se necessário;
+4. garantir coerência com as regras globais.
 
-<br>
+### Adicionar uma nova skill
+1. criar a pasta em `.agent/skills/`;
+2. criar o `SKILL.md` como índice principal;
+3. adicionar módulos auxiliares relevantes;
+4. atualizar referências e roteamento quando necessário.
 
----
-
-## Contribuicao
-
-### Para adicionar um novo agente
-
-1. Crie o arquivo em `.agent/agents/nome-do-agente.md`
-2. Defina o frontmatter com `name`, `description`, `skills`
-3. Atualize `ARCHITECTURE.md`
-
-### Para adicionar uma nova skill
-
-1. Crie a pasta em `.agent/skills/nome-da-skill/`
-2. Crie o `SKILL.md` com frontmatter e instrucoes
-3. Adicione arquivos complementares conforme necessario
-4. Atualize `ARCHITECTURE.md`
-
-### Para adicionar um novo workflow
-
-1. Crie o arquivo em `.agent/workflows/nome.md`
-2. Defina `description` no frontmatter
-3. Atualize `ARCHITECTURE.md`
-
-<br>
+### Adicionar um novo workflow
+1. criar o arquivo em `.agent/workflows/`;
+2. definir objetivo e descrição;
+3. alinhar com a lógica operacional do restante do sistema.
 
 ---
 
-## Git
+## Git e versionamento
+
+### Fluxo básico
 
 ```bash
-# Clonar
 git clone https://github.com/LucasLgomes/dev-skills.git
-
-# Verificar status
 git status
-
-# Adicionar mudancas
 git add .
-
-# Commit
-git commit -m "descricao clara da mudanca"
-
-# Enviar
+git commit -m "refina documentação e melhora experiência de entrada do projeto"
 git push origin main
 ```
 
-<br>
+### Boas práticas
+- escreva commits claros e objetivos;
+- mantenha README e docs sincronizados;
+- evite criar documentação decorativa;
+- prefira mudanças que melhorem uso real do repositório.
 
 ---
 
-## Regras Fundamentais
+## Caminho ideal para um novo usuário
 
-- **Idioma:** Portugues do Brasil para toda comunicacao e codigo
-- **Fuso horario:** America/Sao_Paulo
-- **Nomenclatura:** Nomes claros, completos, sem abreviacoes confusas
-- **Fonte da verdade:** Os arquivos do repositorio sempre vencem suposicoes
-- **Releitura obrigatoria:** O agente deve reler os arquivos corretos antes de cada tarefa
-- **Sem improviso:** Se existe arquivo especializado sobre o tema, ele tem prioridade
+Se alguém acabou de chegar no projeto, a ordem ideal é:
 
-<br>
+1. ler este `README.md`;
+2. abrir `agente_mestre_regras_aprendizado.md`;
+3. consultar `docs/mapa-de-roteamento.md`;
+4. abrir `.agent/rules/GEMINI.md`;
+5. seguir para o agent e skill do domínio desejado.
+
+---
+
+## Direção do projeto
+
+O objetivo do **dev-skills** não é apenas armazenar arquivos.
+
+Ele existe para criar uma base viva de especialização, onde agents consigam:
+
+- entender melhor o contexto;
+- consultar a fonte certa;
+- reduzir improviso;
+- manter consistência entre tarefas;
+- evoluir com mais segurança, qualidade e profundidade.
 
 ---
 
 <div align="center">
 
-<sub>Construido como base de conhecimento operacional para agentes de IA</sub>
+### Base de conhecimento operacional para agents que precisam trabalhar com contexto real
 
-<sub>20 agentes | 36+ skills | 11 workflows | 13 templates | 7 skills n8n</sub>
+<sub>20 agentes especialistas · 36+ skills modulares · 11 workflows · 13 templates · 7 skills n8n</sub>
 
 </div>
