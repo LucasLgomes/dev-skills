@@ -68,7 +68,6 @@ O agente **deve** reler os arquivos corretos sempre que:
 - Precisar produzir documentacao tecnica
 
 O agente **nunca deve:**
-
 - Responder apenas "de cabeca" quando existir arquivo especializado sobre o tema
 - Usar uma unica fonte quando o assunto exigir cruzamento entre regras, arquitetura, workflow e skill
 - Ignorar `SKILL.md`, `ARCHITECTURE.md`, `GEMINI.md` ou o especialista da area
